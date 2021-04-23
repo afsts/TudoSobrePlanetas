@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Tudo sobre Planetas</title>
+    <link href="../style.css" rel="stylesheet" type="text/css" />
+    <link href="quiz.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1 class="titulos1">Descobre tudo sobre os planetas!</h1>
+    <nav>
+     <ul class="navbar">
+      <li class="navbar2"> <a href="../index.html">Tabela </a> </li> 
+      <li class="navbar2"> <a href="../index.html">Temperaturas </a> </li>
+      <li class="navbar2"> <a href="../index.html">Curisosidades </a> </li>
+      <li class="navbar2"> <a href="../index.html">Fotografias </a> </li>
+       <li class="navbar2"> <a href="../index.html">Missões Espaciais </a></li>
+      <li class="navbar2"> <a href="../jogodogalo/jogodogalo.html" target="_blank" >Jogo do Galo </a> </li>
+      <li class="navbar2"> <a href="../Quiz/quiz.html" target="_blank" >Torna-te num Expert </a> </li>
+     </ul>
+    </nav>
+    <h1 id="h1Q" class="center"> Torna-te num Expert!</h1>
+    <div id="Quizz" class="center">
+      <form id ="formquiz">
+        <div id="q1">
+          <label class="Cslabel1">1.Qual é o planeta mais quente?</label><br>
+          <input id ="1p1" type="radio" value="n" name="r1">
+          <label for="1p1">Plutão</label><br>
+          <input id ="1p2"type="radio" value="n" name="r1">
+          <label for="1p2">Terra</label><br>
+          <input id ="1p3"type="radio" value="n" name="r1">
+          <label for="1p3">Venus</label><br>
+          <input id ="1p4"type="radio" value="n" name="r1">
+          <label for="1p4">Jupiter</label><br>
+        </div>
+        <div id="q2">
+          <label class="Cslabel2">2.Qual a aceleração da gravidade na Terra?</label><br>
+          <input id ="2p1"type="radio" value="n" name ="r2">
+          <label for="2p1">9.8 m/s<sup>2</sup></label><br>
+          <input id ="2p2"type="radio" value="n" name ="r2">
+          <label for="2p2">8.9 m/s</label><br>
+          <input id ="2p3"type="radio" value="n" name ="r2">
+          <label for="2p3">9.8 m/s</label><br>
+          <input id ="2p4"type="radio" value="n" name ="r2">
+          <label for="2p4">8.9 m/s<sup>2</sup></label><br>
+        </div>
+        <div id="q3">
+          <label class="Cslabel3">3.Quem foi o primeiro homem a pisar a Lua?</label><br>
+          <input id ="3p1"type="radio" value="n" name ="r3">
+          <label for="3p1">Bill Gates</label><br>
+          <input id ="3p1"type="radio" value="n" name ="r3">
+          <label for="3p1">Yuri Gagarin</label><br>
+          <input id ="3p1"type="radio" value="n" name ="r3">
+          <label for="3p1">Neil Armstrong </label><br>
+          <input id ="3p1"type="radio" value="n" name ="r3">
+          <label for="3p1">Roger Bruce Chaffee</label><br>
+        </div>
+        <div id="q4">
+          <label class="Cslabel4" >4.Em kilometros, qual o planeta que apresenta um maior raio?</label><br>
+          <input id ="4p1"type="radio" value="n" name ="r4">
+          <label for="4p1">Jupiter</label><br>
+          <input id ="4p2"type="radio" value="n" name ="r4">
+          <label for="4p2">Neptuno</label><br>
+          <input id ="4p3"type="radio" value="n" name ="r4">
+          <label for="4p3">Terra</label><br>
+          <input id ="4p4"type="radio" value="n" name ="r4">
+          <label for="4p4">Plutão</label><br>
+        </div>
+        <img id="issimagem"src="https://s2.glbimg.com/x-Gweggvj4dPmyjaziZC7Y9ku5Q=/620x350/e.glbimg.com/og/ed/f/original/2019/07/31/satelite.jpg" alt="ISS">
+        <div id="q5">
+          <<label class="Cslabel"> 5.O que está nesta fotografia?</label><br>
+          <input id ="5p1"type="radio" value="n" name ="r5">
+          <label for="5p1">Astromóvel</label><br>
+          <input id ="5p2"type="radio" value="n" name ="r5">
+          <label for="5p2">Satélite</label><br>
+          <input id ="5p3"type="radio" value="n" name ="r5">
+          <label for="5p3">Astronauta</label><br>
+          <input id ="5p4"type="radio" value="n" name ="r5">
+          <label for="5p4">Estação Espacial Internacional</label><br>
+        </div>
+        <div id="QE">
+          <div id="q6">
+            <label for="6p1" class="Cslabel">6. A uma velocidade média de 0,5 m/s, quanto tempo demoraria a percorrer o diametro da Terra? Responde apenas com o valor em segundos. </label><br>
+            <input type="text" id="6p1" name="r6" value=""><br>
+          </div>
+          <div id="q7">
+            <label for="7p1" class="Cslabel">7.Se a capsula da missão Apollo 11, entrar em queda livre na atmosféra terrestre, a que velocidade chegaria à superficie?Considera a velocidade inicial da capsula ao entrar na atmosfera de 83m/s, tempo de queda = 14s e massa da capsula = 16400kg. Apresenta o resultado em Km/h.</label><br>
+            <input type="text" id="7p1" name="r7" value=""><br>
+          </div>
+      </form>
+    </div><br>
+    <button id="submit">Submeter Prova </button><br>
+    <div id="resultado"></div>
+    <span id="premio" style='font-size:200px;'></span>
+    <div id="p1"></div>
+    <div id="p2"></div>
+    <div id="p3"></div>
+    <div id="p4"></div>
+    <div id="p5"></div>
+    <div id="p6"></div>
+    <div id="p61"></div>
+    <div id="p7"></div>
+    <divp id="p71"></div>
+    <script src="quiz.js"></script>
+  </body>
+    <footer> 
+      <center><p>Copyright &#169 2021 Tudo sobre Planetas </p></center>
+    </footer>
+  <script src="script.js"></script>
+  </body>
+</html>

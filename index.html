@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Tudo sobre Planetas</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1 class="titulos1">Descobre tudo sobre os planetas!</h1>
+    <nav>
+     <ul class="navbar">
+      <li class="navbar2"> <a href="#tabela">Tabela </a> </li> 
+      <li class="navbar2"> <a href="#Temperaturas">Temperaturas </a> </li>
+      <li class="navbar2"> <a href="#Curisosidades">Curisosidades </a> </li>
+      <li class="navbar2"> <a href="#Fotografias">Fotografias </a> </li>
+       <li class="navbar2"> <a href="#MissõesEspaciais">Missões Espaciais </a></li>
+      <li class="navbar2"> <a href="../jogodogalo/jogodogalo.html" target="_blank" >Jogo do Galo </a> </li>
+      <li class="navbar2"> <a href="../Front-End/Quiz/quiz.html" target="_blank" >Torna-te num Expert </a> </li>
+     </ul>
+    </nav>
+
+     <article>
+      <header>
+       <p>Se és um@ entusiasta da astronomia, estás no sítio certo. </p>
+       <h2> Consulta aqui as principais informações de todos os planetas do nosso sistema solar.</h2>
+       <br>
+   </header>
+  </article>  
+    <table id="tabela">
+ <caption>Dados sobre os planetas do Sistema Solar (<a href="http://nssdc.gsfc.nasa.gov/planetary/factsheet/"  rel=" noopener">Nasa's Planetary Fact Sheet - Metric</a>).</caption>
+ <thead>
+  <tr>
+   <th scope="col">Nome</th>
+   <th scope="col">Massa (10<sup>24</sup>kg)</th>
+   <th scope="col">Diametro (km)</th>
+   <th scope="col">Densidade (kg/m<sup>3</sup>)</th>
+   <th scope="col">Gravidade (m/s<sup>2</sup>)</th>
+   <th scope="col">Duração do dia (horas)</th>
+   <th scope="col">Distancia ao Sol (10<sup>6</sup>km)</th>
+   <th scope="col">Temperatura média (°C)</th>
+   <th scope="col">Numero de Luas</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <th scope="row">Mercurio</th>
+   <td>0.330</td>
+   <td>4,879</td>
+   <td>5427</td>
+   <td>3.7</td>
+   <td>4222.6</td>
+   <td>57.9</td>
+   <td>167</td>
+   <td>0</td>
+  </tr>
+  <tr>
+   <th scope="row">Venus</th>
+   <td>4.87</td>
+   <td>12,104</td>
+   <td>5243</td>
+   <td>8.9</td>
+   <td>2802.0</td>
+   <td>108.2</td>
+   <td>464</td>
+   <td>0</td>
+  </tr>
+  <tr>
+   <th scope="row">Terra</th>
+   <td>5.97</td>
+   <td>12,756</td>
+   <td>5514</td>
+   <td>9.8</td>
+   <td>24.0</td>
+   <td>149.6</td>
+   <td>15</td>
+   <td>1</td>
+  </tr>
+  <tr>
+   <th scope="row">Marte</th>
+   <td>0.642</td>
+   <td>6,792</td>
+   <td>3933</td>
+   <td>3.7</td>
+   <td>24.7</td>
+   <td>227.9</td>
+   <td>-65</td>
+   <td>2</td>
+  </tr>
+  <tr>
+   <th scope="row">Jupiter</th>
+   <td>1898</td>
+   <td>142,984</td>
+   <td>1326</td>
+   <td>23.1</td>
+   <td>9.9</td>
+   <td>778.6</td>
+   <td>-110</td>
+   <td>67</td>
+  </tr>
+  <tr>
+   <th scope="row">Saturno</th>
+   <td>568</td>
+   <td>120,536</td>
+   <td>687</td>
+   <td>9.0</td>
+   <td>10.7</td>
+   <td>1433.5</td>
+   <td>-140</td>
+   <td>62</td>
+  </tr>
+  <tr>
+   <th scope="row">Urano</th>
+   <td>86.8</td>
+   <td>51,118</td>
+   <td>1271</td>
+   <td>8.7</td>
+   <td>17.2</td>
+   <td>2872.5</td>
+   <td>-195</td>
+   <td>27</td>
+  </tr>
+  <tr>
+   <th scope="row">Neptuno</th>
+   <td>102</td>
+   <td>49,528</td>
+   <td>1638</td>
+   <td>11.0</td>
+   <td>16.1</td>
+   <td>4495.1</td>
+   <td>-200</td>
+   <td>14</td>
+  </tr>
+  <tr>
+   <th scope="row">Plutão</th>
+   <td>0.0146</td>
+   <td>2,370</td>
+   <td>2095</td>
+   <td>0.7</td>
+   <td>153.3</td>
+   <td>5906.4</td>
+   <td>-225</td>
+   <td>5</td>
+  </tr>
+ </tbody>
+</table>
+<br>
+<h2 id="Temperaturas">Quais os planetas mais frios e mais quentes? </h2>
+<h4>Vê aqui por ordem crescente!</h4>
+<div id="espa">
+<input type="button" id="btnAddLi" value="Ver">
+<input type="button" id="btnAddLiRem" value="Esconder">
+</div>
+<ol id="NuR">
+
+</ol>
+
+
+<br>
+<aside>
+<h2 id="Curisosidades">Curiosidades sobre o planeta Terra...</h2>
+<ul>
+ <li> <p> Sabia que <strong>as florestas cobrem 30% do solo do planeta</strong>? Apesar de parecer muito, hoje em dia elas ocupam uma área 1/3 menor do que ocupavam no início da agricultura.</li>
+ <li> <p> Sabia que, <strong>dentro de 100 anos</strong>, se mantivermos o ritmo atual de desflorestação, <strong>as florestas tropicais podem desaparecer por completo</strong>?</li>
+ <li> <p> Sabia que <strong>desde 1906</strong>, a temperatura média global do planeta Terra <strong>aumentou entre 0,6 a 0,9 graus Celsius</strong>?</li>
+ <li> <p> Sabia que <strong>o aquecimento global ameaça alterar a ecologia do deserto</strong>? Temperaturas mais altas podem produzir um número crescente de incêndios florestais que alteram paisagens desérticas.</li>
+ <li> <p> Sabia que <strong>muitas espécies foram afetadas pelo aumento das temperaturas</strong>? Por exemplo, o investigador <em>Bill Fraser</em> acompanhou o declínio dos pinguins <em>Adélie</em> na Antártida, cujos números <strong>caíram de 32.000 pares reprodutores para 11.000 em apenas 30 anos</strong>.</li>
+</ul>
+</aside>
+ <br>
+<div id="esp">
+  <section>
+  <h2 id="Fotografias">Adivinhas quais os planetas das fotografias?</h2>
+  <img class="tamanho-imagem" src="https://www2.ifmg.edu.br/governadorvaladares/noticias/22-de-abril-dia-do-planeta-terra/22-de-abril-dia-do-planeta-terra/@@images/14b623de-afcf-4182-8034-1a0345eb3937.jpeg" alt="Planeta Terra">
+  <img class="tamanho-imagem"
+  src="https://super.abril.com.br/wp-content/uploads/2016/09/super_imgviver-em-marte.jpg" alt="Planeta Marte">
+  <img class="tamanho-imagem"
+  src="https://ibcdn.canaltech.com.br/t_AEf8jdXh3rL3kl9O7h9w-tAn8=/512x288/smart/i350834.jpeg" alt="Planeta Venus">
+  <img class="tamanho-imagem"
+  src="https://img.ibxk.com.br/2020/06/09/09224410701066.jpg?w=1120&h=420&mode=crop&scale=both" alt="Planeta Saturno">
+  <img class="tamanho-imagem"
+  src="https://img.vixdata.io/pd/jpg-large/es/sites/default/files/btg/curiosidades.batanga.com/files/7-asombrosas-curiosidades-sobre-Neptuno-5.jpg" alt="Planeta Neptuno">
+  </section>
+  
+  <h2 id="MissõesEspaciais"> Missões Espaciais</h2>
+  <div class="flexbox">
+    <div>
+      <h3>Sputinik I</h3>
+      <p>A União Soviética lançou o Sputinik I a oito de outubro de 1957. Esse momento introduziu a humanidade à Era Espacial e trouxe informações inéditas sobre a atmosfera terrestre. Findou a janeiro de 1958 quando o Sputinik I explodiu em órbita terrestre.</p>
+      <button class="btn1"></button>
+      <button class="btn2"></button>
+      <button class="btn3"></button>
+    </div>
+    <div>
+      <h3>Vostok I</h3>
+      <p>O primeiro homem a explorar o espaço foi Yuri Gagarin durante a missão soviética Vostok I, a 12 de abril de 1961. Essa viagem durou apenas 1 hora e 48 minutos e Gagarin se ejetou da espaçonave em direção à Terra, seguindo o plano original.Antes de tudo, uma missão teste ocorreu com um protótipo do Vostok I que continha um manequim masculino e um cachorrinho.</p>
+      <button class="btn1"></button>
+      <button class="btn2"></button>
+      <button class="btn3"></button>
+    </div>
+    <div>
+      <h3>Apollo 11</h3>
+      <p><em>"Um pequeno passo para o homem, um gigante salto para a humanidade"</em>. A 20 de julho 1969, Apollo 11 alunou, sendo Neil Armstrong  o primeiro homem a pisar a Lua. Em menos de 20 minutos, o piloto Buzz Aldrin juntou-se a Neil em uma caminhada de três horas, coletando amostras lunares. A nave norte-americana retornou à Terra em 24 de julho.</p>
+      <button class="btn1"></button>
+      <button class="btn2"></button>
+      <button class="btn3"></button>
+    </div>
+  </div>
+</div>
+<div>
+  <h2>Jogo no Espaço</h2>
+  <h4>Passa o rato por cima daquilo que queres saber mais!</h4>
+  <div id="alText">
+    <img class="jogo" id="box"  src="https://images.photowall.com/products/48217/space-odyssey.jpg?h=699&q=85" alt="Jogo no Espaço">
+    <div id="texto"></div>
+  </div>
+  <center><p id='output'></p></center>
+
+</div>
+
+<footer> 
+  <center>
+  <p>Copyright &#169 2021 Tudo sobre Planetas </p>
+  </center>
+</footer>
+<script src="script.js"></script>
+  </body>
+</html>
